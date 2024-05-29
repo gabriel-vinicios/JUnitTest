@@ -11,4 +11,12 @@ public class testCalculadora {
         double retornoFeito = calculadora.getAdicao();
         Assert.assertEquals(retornoEsperado, retornoFeito, 0);
     }
+
+    @Test
+    public void testGetSubtracao() {
+        Calculadora calculadora = new Calculadora(4.0,2.0);
+        double retornoEsperado = 2.0;
+        double retornoFeito = calculadora.getSubtracao();
+        Assert.assertEquals(retornoEsperado, retornoFeito, 0);
+    }
 }
