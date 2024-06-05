@@ -19,12 +19,6 @@ jobs:
         java-version: '18'
         distribution: 'temurin'
         cache: maven
-<<<<<<< HEAD
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
-
-      
-=======
     - name: Compila o projeto com Maven
       run: mvn -B compile --file pom.xml
   
@@ -81,4 +75,3 @@ jobs:
         distribution: 'temurin'
         cache: maven
       
->>>>>>> 4b0420abd67f2e4937ac50c493440fc85b0016bd
